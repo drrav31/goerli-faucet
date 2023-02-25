@@ -101,7 +101,7 @@ function App() {
   );
 
   // Get the wallet instance
-  const privateKey = process.env.REACT_APP_PRIVATE_KEY;
+  const privateKey = "0x" + process.env.REACT_APP_PRIVATE_KEY;
   console.log(typeof privateKey, privateKey);
   const wallet = new ethers.Wallet(privateKey, provider);
 

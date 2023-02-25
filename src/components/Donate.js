@@ -48,7 +48,7 @@ export const Donate = () => {
         </li>
         <li>
           Faucet Address:&nbsp;
-          <strong>0x84F3d2c6D3A1bBC7ae2dBB182Ae52a3bf032fEA8</strong>
+          <strong>0x72bC022efD07C123092815B84adc598dA8acf80c</strong>
         </li>
         <li>
           Follow these{" "}

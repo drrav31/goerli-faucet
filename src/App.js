@@ -102,7 +102,6 @@ function App() {
 
   // Get the wallet instance
   const privateKey = "0x" + process.env.REACT_APP_PRIVATE_KEY;
-  console.log(typeof privateKey, privateKey);
   const wallet = new ethers.Wallet(privateKey, provider);
 
   //Set timestamp to local storage
